@@ -1,0 +1,157 @@
+body{
+     background-image: url('laptop.jpg');  
+     background-size: cover;
+     background-repeat: no-repeat;
+    background-position:center ;
+    height: 600px;
+}
+.section1{
+        overflow: hidden;  
+}
+.section1 a {
+            float: left; 
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 19px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+            
+}
+.section1 ul :hover {
+        background-color: white;
+      color: greenyellow
+}
+.section1 a.active {
+      color: goldenrod;
+}
+.main {
+      padding: 16px;
+      margin-top: 10px;
+      height: 200px; 
+  }
+h1{
+       text-align: center;
+      font-size: 40px; 
+      color: cornsilk;
+}
+h2{
+    text-align: center;
+     font-size: 40px; 
+     color: gold;
+     margin-top:3%;
+}
+.image a {
+     padding-top:50px;
+      font-size: 29px;
+      font-family: 'Courier New', Courier, monospace;
+      margin:auto ;
+      margin-top: 70%;
+     color: chocolate;
+      text-decoration:none ;
+      text-align: center;
+ } 
+ h3 a{
+      text-align: center;
+      font-size: 29px;
+      color:black ;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 10%;
+ }
+ .select{
+      margin-top:12% ;
+ }
+ 
+button a{
+     height: 27px;
+     margin-top:0% ; 
+
+}
+ p{
+      background-color: rgb(202, 175, 106);
+      height: 270px;
+      font-size: 20px; 
+ }
+h4{
+font-size:40px ;
+text-align: center;
+margin-top:5%;
+color: black; 
+}
+input[type=text], select, textarea {
+     width: 30%;
+   padding: 5px;
+    border: 1px solid;
+   border-radius: 4px;
+   resize: vertical;
+   
+}
+
+label {
+  padding: 12px 12px 12px 0;
+ display: inline-block;
+}
+
+input[type=submit] {
+   background-color: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+ border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: green;
+}
+.container {
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  margin-top:0%;
+  color:brown;
+}
+h2 {
+     width: 100px;
+     font-weight: bold;
+     position: relative;
+     animation: mymove 20s infinite;
+   }
+   
+   h2{animation-timing-function: ease-out;}
+   
+   
+   @keyframes mymove {
+     from {left: 0px;}
+     to {left: 600px;}
+     
+   }
+.photo a   {
+            text-decoration: none;
+            font-size: 30px;
+            color: goldenrod;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+
+footer{
+     margin:auto ;
+     margin-top:3%;
+     color:black ;
+     text-align: center;
+}
+
+.footer1{
+     margin-top:27% ;
+     text-align: center;
+}
+
+
+
+
+
+
+
+
